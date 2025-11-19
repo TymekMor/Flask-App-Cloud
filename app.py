@@ -5,6 +5,6 @@ app = Flask(__name__)
 @app.route('/')
 def hello():
     current_time = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-    return f"<h1>Witaj! Aplikacja wdrożona przez GitHub Actions!</h1><p>BRANCH NEW</p>"
+    return f"Huh"
 if __name__ == '__main__':
     app.run()
